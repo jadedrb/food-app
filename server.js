@@ -14,7 +14,7 @@ require('dotenv').config()
 const app = express()
 
 // Identify our port
-const port = process.env.PORT
+const port = process.env.PORT || 5000
 
 // setup our view engine
 app.set('view engine', 'jsx')
